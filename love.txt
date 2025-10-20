@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Mom 💖</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(180deg, #ffeaf1, #ffd9e6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 20px;
+      padding: 30px 25px;
+      text-align: center;
+      max-width: 400px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    p {
+      font-size: 18px;
+      color: #444;
+      line-height: 1.6;
+    }
+
+    .heart {
+      font-size: 24px;
+      color: #ff4d8b;
+      margin-top: 15px;
+      animation: pulse 1.2s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <p>
+      20-10 chúc mẹ yêu luôn hạnh phúc dui dẻ vui cười mỗi ngày ❤️<br>
+      Mẹ là người phụ nữ tuyệt vời nhất trong lòng con.<br>
+      Con yêu mẹ gất nhiềuuuuu 🥰🥰
+    </p>
+    <div class="heart">💖</div>
+  </div>
+  <footer>Made with love by con 💗</footer>
+</body>
+</html>
